@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA42A24281795DA00B4900F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A23281795DA00B4900F /* AppDelegate.swift */; };
+		ACA42A26281795DA00B4900F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A25281795DA00B4900F /* SceneDelegate.swift */; };
+		ACA42A28281795DA00B4900F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A27281795DA00B4900F /* ViewController.swift */; };
+		ACA42A2B281795DA00B4900F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA42A29281795DA00B4900F /* Main.storyboard */; };
+		ACA42A2D281795DB00B4900F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA42A2C281795DB00B4900F /* Assets.xcassets */; };
+		ACA42A30281795DB00B4900F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA42A2E281795DB00B4900F /* LaunchScreen.storyboard */; };
+		ACA42A3B281795DC00B4900F /* GoRacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A3A281795DC00B4900F /* GoRacingTests.swift */; };
+		ACA42A45281795DC00B4900F /* GoRacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A44281795DC00B4900F /* GoRacingUITests.swift */; };
+		ACA42A47281795DC00B4900F /* GoRacingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA42A46281795DC00B4900F /* GoRacingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA42A37281795DC00B4900F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA42A18281795DA00B4900F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA42A1F281795DA00B4900F;
+			remoteInfo = GoRacing;
+		};
+		ACA42A41281795DC00B4900F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA42A18281795DA00B4900F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA42A1F281795DA00B4900F;
+			remoteInfo = GoRacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA42A20281795DA00B4900F /* GoRacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoRacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA42A23281795DA00B4900F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACA42A25281795DA00B4900F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACA42A27281795DA00B4900F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACA42A2A281795DA00B4900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA42A2C281795DB00B4900F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA42A2F281795DB00B4900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA42A31281795DB00B4900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA42A36281795DC00B4900F /* GoRacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoRacingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA42A3A281795DC00B4900F /* GoRacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoRacingTests.swift; sourceTree = "<group>"; };
+		ACA42A40281795DC00B4900F /* GoRacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoRacingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA42A44281795DC00B4900F /* GoRacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoRacingUITests.swift; sourceTree = "<group>"; };
+		ACA42A46281795DC00B4900F /* GoRacingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoRacingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA42A1D281795DA00B4900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A33281795DC00B4900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A3D281795DC00B4900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA42A17281795DA00B4900F = {
+			isa = PBXGroup;
+			children = (
+				ACA42A22281795DA00B4900F /* GoRacing */,
+				ACA42A39281795DC00B4900F /* GoRacingTests */,
+				ACA42A43281795DC00B4900F /* GoRacingUITests */,
+				ACA42A21281795DA00B4900F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA42A21281795DA00B4900F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA42A20281795DA00B4900F /* GoRacing.app */,
+				ACA42A36281795DC00B4900F /* GoRacingTests.xctest */,
+				ACA42A40281795DC00B4900F /* GoRacingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA42A22281795DA00B4900F /* GoRacing */ = {
+			isa = PBXGroup;
+			children = (
+				ACA42A23281795DA00B4900F /* AppDelegate.swift */,
+				ACA42A25281795DA00B4900F /* SceneDelegate.swift */,
+				ACA42A27281795DA00B4900F /* ViewController.swift */,
+				ACA42A29281795DA00B4900F /* Main.storyboard */,
+				ACA42A2C281795DB00B4900F /* Assets.xcassets */,
+				ACA42A2E281795DB00B4900F /* LaunchScreen.storyboard */,
+				ACA42A31281795DB00B4900F /* Info.plist */,
+			);
+			path = GoRacing;
+			sourceTree = "<group>";
+		};
+		ACA42A39281795DC00B4900F /* GoRacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA42A3A281795DC00B4900F /* GoRacingTests.swift */,
+			);
+			path = GoRacingTests;
+			sourceTree = "<group>";
+		};
+		ACA42A43281795DC00B4900F /* GoRacingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA42A44281795DC00B4900F /* GoRacingUITests.swift */,
+				ACA42A46281795DC00B4900F /* GoRacingUITestsLaunchTests.swift */,
+			);
+			path = GoRacingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA42A1F281795DA00B4900F /* GoRacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA42A4A281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacing" */;
+			buildPhases = (
+				ACA42A1C281795DA00B4900F /* Sources */,
+				ACA42A1D281795DA00B4900F /* Frameworks */,
+				ACA42A1E281795DA00B4900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoRacing;
+			productName = GoRacing;
+			productReference = ACA42A20281795DA00B4900F /* GoRacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA42A35281795DC00B4900F /* GoRacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA42A4D281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacingTests" */;
+			buildPhases = (
+				ACA42A32281795DC00B4900F /* Sources */,
+				ACA42A33281795DC00B4900F /* Frameworks */,
+				ACA42A34281795DC00B4900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA42A38281795DC00B4900F /* PBXTargetDependency */,
+			);
+			name = GoRacingTests;
+			productName = GoRacingTests;
+			productReference = ACA42A36281795DC00B4900F /* GoRacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA42A3F281795DC00B4900F /* GoRacingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA42A50281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacingUITests" */;
+			buildPhases = (
+				ACA42A3C281795DC00B4900F /* Sources */,
+				ACA42A3D281795DC00B4900F /* Frameworks */,
+				ACA42A3E281795DC00B4900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA42A42281795DC00B4900F /* PBXTargetDependency */,
+			);
+			name = GoRacingUITests;
+			productName = GoRacingUITests;
+			productReference = ACA42A40281795DC00B4900F /* GoRacingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA42A18281795DA00B4900F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ACA42A1F281795DA00B4900F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACA42A35281795DC00B4900F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACA42A1F281795DA00B4900F;
+					};
+					ACA42A3F281795DC00B4900F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = ACA42A1F281795DA00B4900F;
+					};
+				};
+			};
+			buildConfigurationList = ACA42A1B281795DA00B4900F /* Build configuration list for PBXProject "GoRacing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA42A17281795DA00B4900F;
+			productRefGroup = ACA42A21281795DA00B4900F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA42A1F281795DA00B4900F /* GoRacing */,
+				ACA42A35281795DC00B4900F /* GoRacingTests */,
+				ACA42A3F281795DC00B4900F /* GoRacingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA42A1E281795DA00B4900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA42A30281795DB00B4900F /* LaunchScreen.storyboard in Resources */,
+				ACA42A2D281795DB00B4900F /* Assets.xcassets in Resources */,
+				ACA42A2B281795DA00B4900F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A34281795DC00B4900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A3E281795DC00B4900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA42A1C281795DA00B4900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA42A28281795DA00B4900F /* ViewController.swift in Sources */,
+				ACA42A24281795DA00B4900F /* AppDelegate.swift in Sources */,
+				ACA42A26281795DA00B4900F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A32281795DC00B4900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA42A3B281795DC00B4900F /* GoRacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA42A3C281795DC00B4900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA42A47281795DC00B4900F /* GoRacingUITestsLaunchTests.swift in Sources */,
+				ACA42A45281795DC00B4900F /* GoRacingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA42A38281795DC00B4900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA42A1F281795DA00B4900F /* GoRacing */;
+			targetProxy = ACA42A37281795DC00B4900F /* PBXContainerItemProxy */;
+		};
+		ACA42A42281795DC00B4900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA42A1F281795DA00B4900F /* GoRacing */;
+			targetProxy = ACA42A41281795DC00B4900F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA42A29281795DA00B4900F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA42A2A281795DA00B4900F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA42A2E281795DB00B4900F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA42A2F281795DB00B4900F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA42A48281795DC00B4900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA42A49281795DC00B4900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA42A4B281795DC00B4900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoRacing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA42A4C281795DC00B4900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoRacing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA42A4E281795DC00B4900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoRacing.app/GoRacing";
+			};
+			name = Debug;
+		};
+		ACA42A4F281795DC00B4900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoRacing.app/GoRacing";
+			};
+			name = Release;
+		};
+		ACA42A51281795DC00B4900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoRacing;
+			};
+			name = Debug;
+		};
+		ACA42A52281795DC00B4900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GoRacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoRacing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA42A1B281795DA00B4900F /* Build configuration list for PBXProject "GoRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA42A48281795DC00B4900F /* Debug */,
+				ACA42A49281795DC00B4900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA42A4A281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA42A4B281795DC00B4900F /* Debug */,
+				ACA42A4C281795DC00B4900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA42A4D281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA42A4E281795DC00B4900F /* Debug */,
+				ACA42A4F281795DC00B4900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA42A50281795DC00B4900F /* Build configuration list for PBXNativeTarget "GoRacingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA42A51281795DC00B4900F /* Debug */,
+				ACA42A52281795DC00B4900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA42A18281795DA00B4900F /* Project object */;
+}
